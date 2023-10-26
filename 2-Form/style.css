@@ -1,0 +1,87 @@
+body {
+  background: #fdc5c5;
+}
+
+section {
+    border-radius: 10px;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  color: #333;
+  font-family: Open Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+p {
+  color: #666;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.signin-button {
+  color: #089fe0;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.company-input {
+  border-radius: 5px;
+  border: 1px solid #f5f5f5;
+  background: #fff;
+  outline: none;
+}
+
+.company-input::placeholder {
+  color: #333;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.input-grey {
+  border-radius: 5px;
+  background: #f5f5f5;
+}
+
+.signup-button {
+  border-radius: 5px;
+  background: #089fe0;
+}
+
+.checkbox-button {
+  border-radius: 5px;
+  border: 1px solid #eee;
+  background: #f5f5f5;
+}
+
+.agreements {
+  color: #666;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.agreements-link {
+  color: #089fe0;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
