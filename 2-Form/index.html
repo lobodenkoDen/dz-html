@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,15 +15,20 @@
           <a class="signin-button" href="#">Войти</a>
         </div>
         <form action="/test">
-          <input class="company-input" type="text" name="my_company" placeholder="Моя компания" />
+          <label for="my_company">Моя компания</label>
+          <input class="company-input" type="text" id="my_company" name="my_company" placeholder="Моя компания" />
           <div>
-            <input class="input-grey" type="text" name="first_name" placeholder="Имя" />
-            <input class="input-grey" type="text" name="second_name" placeholder="Фамилия" />
+            <label for="first_name">Имя</label>
+            <input class="input-grey" type="text" id="first_name" name="first_name" placeholder="Имя" />
+            <label for="second_name">Фамилия</label>
+            <input class="input-grey" type="text" id="second_name" name="second_name" placeholder="Фамилия" />
           </div>
-          <input class="input-grey" type="email" name="email" placeholder="E-mail" />
+          <label for="email">E-mail</label>
+          <input class="input-grey" type="email" id="email" name="email" placeholder="E-mail" />
           <div>
-            <input class="signup-button" type="submit" value="Зарегистрироваться" name="signup" />
+            <button class="signup-button" type="submit" name="signup">Зарегистрироваться</button>
           </div>
+          
           <div>
             <input class="checkbox-button" type="checkbox" name="checkbox" id="checkbox" />
             <label class="agreements" for="checkbox">Я прочитал и принимаю</label>
